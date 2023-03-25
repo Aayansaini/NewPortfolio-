@@ -1,0 +1,39 @@
+.section-box3{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Assets/imgf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+.container-box3{
+    height: 70vh;
+    background-color: tomato;
+}
+.anime{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    animation-name: slide;
+    animation: infinite 1s linear infinite;
+    background-color: aliceblue;
+}
+
+// @keyframes slide {
+//     0%   {left:0px; top:0px;}
+//     25%  {left:100%; top:0px;}
+//     50%  {left:200px; top:200px;}
+//     75%  {left:0px; top:200px;}
+//     100% {left:0px; top:0px;}
+//   }
+
+@keyframes slide {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

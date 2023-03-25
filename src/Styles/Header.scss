@@ -1,0 +1,29 @@
+nav{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #f9f9f9;
+}
+#logo{
+    height: 60px;
+    width: 70px;
+}
+h1{
+    color: #f9f9f9;
+}
+
+@keyframes circle {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.emoji{
+    animation: circle 2s infinite linear; 
+    display: inline-block;
+}
+
