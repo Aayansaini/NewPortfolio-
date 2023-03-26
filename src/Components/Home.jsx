@@ -14,16 +14,16 @@ const Home = () => {
 
   return (
     <>
-      <div id="animate__bounce" className="section section-box2">
+      <div className="section section-box2">
         <div className="container container-box2">
           <div className="row">
-            <div className="col-sm-6 col-box2-first">
+            <div className="col-sm-6 col-box2-first animate__animated animate__zoomIn">
               <img src={profile} alt="..." />
               <h1>
                 FRONTEND <br /> ENGINEER
               </h1>
             </div>
-            <div className="col-sm-6 col-box2-second">
+            <div className="col-sm-6 col-box2-second animate__animated animate__zoomIn">
               <h1>Hi, My name is</h1>
               <h3>
                 <span>Aayan</span> Saini<span>.</span>
@@ -47,7 +47,7 @@ const Home = () => {
         <h1>&lt; PROJECTS /&gt;</h1>
         <div className="container container-home2">
           <div className="row">
-            <div className="col-sm-4 col-home2">
+            <div className="col-sm-4 col-home2 animate__animated animate__zoomIn">
               <div class="d-flex position-relative">
                 <img src={imgc} class="flex-shrink-0 me-3" alt="..." />
                 <div>
@@ -64,7 +64,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-4 col-home2">
+            <div className="col-sm-4 col-home2 animate__animated animate__zoomIn">
               <div class="d-flex position-relative">
                 <img src={imgd} class="flex-shrink-0 me-3" alt="..." />
                 <div>
@@ -84,7 +84,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-4 col-home2">
+            <div className="col-sm-4 col-home2 animate__animated animate__zoomIn">
               <div class="d-flex position-relative">
                 <img src={imge} class="flex-shrink-0 me-3" alt="..." />
                 <div>
@@ -109,7 +109,7 @@ const Home = () => {
         </div>
         <div id="project">
           <Link to={"/Download"} id="fillup" onClick={() => calling()}>
-            <p>
+            <p className="animate__animated animate__zoomIn">
               &lt;PRESS ME
               <span>
                 <AiFillBulb />

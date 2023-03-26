@@ -6,13 +6,13 @@ const Footer = () => {
       <div className="section section-box">
         <div className="container">
           <div className="row">
-            <div className="col-sm-4 col-box1">
+            <div className="col-sm-4 col-box1 animate__animated animate__zoomIn">
               <AiFillGithub />
             </div>
-            <div className="col-sm-4 col-box1">
+            <div className="col-sm-4 col-box1 animate__animated animate__zoomIn">
               <AiFillLinkedin />
             </div>
-            <div className="col-sm-4 col-box1">
+            <div className="col-sm-4 col-box1 animate__animated animate__zoomIn">
               <AiFillInstagram />
             </div>
           </div>
