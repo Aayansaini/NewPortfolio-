@@ -5,6 +5,7 @@ import "./Styles/Footer.scss";
 import "./Styles/Home.scss";
 import "./Styles/App.scss";
 import "./Styles/Download.scss";
+import "./Styles/Confitt.scss";
 
 import Header from "./Components/Header";
 import Home from "./Components/Home";

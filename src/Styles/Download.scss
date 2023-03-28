@@ -13,57 +13,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: transparent;
+    // background-color: white;
 }
-@keyframes round{
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(180deg);
-  }
-}
-
-@keyframes slide {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  .anime{
-    height: 400px;
-    width: 400px;
-    display: inline-block;
-    border-radius: 100%;
+  .Rotation{
+    height: 60vh;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    animation: slide 2s infinite linear;
-    // background-color: aliceblue;
-    >h1{
-      font-size: 60px;
-    }
+    justify-content: center;
+    // background-color: aqua;
+}
+.R-2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
 
-    >button{
-      height: 300px;
-      width: 220px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: cursive;
-      background-color: transparent;
-      border: 2px solid #f9f9f9;
-      flex-direction: column;
-      color: #f9f9f9;
-      font-size: 30px;
-      font-weight: 900;
-      border-radius: 50%;
-      &:hover{
-        box-shadow: 1px 1px 10px 10px goldenrod;
-        font-size: 0px;
-        transition: all 10s;
-      }
-    }
+.R-1{
+  font-size:15vh;
+  animation: Owl 2s infinite linear;
+  display: inline-block;
+}
+@keyframes Owl{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
 }
